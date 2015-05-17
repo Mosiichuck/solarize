@@ -129,4 +129,12 @@
 .ba-width-1-4{
 	width: 25%;
 }
-
+.ba-width-3-4{
+	width: 75%;
+}
+.ba-grid-no-guttar{
+	margin-left: 0;
+}
+.ba-grid .ba-grid-no-guttar > [class*="ba-width"]{
+	padding-left: 0;
+}
